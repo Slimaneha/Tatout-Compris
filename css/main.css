@@ -96,18 +96,54 @@ textarea {
    ========================================================================== */
 
 
+/* ============================================================================================
+                                 Mobile Frust
+ ==============================================================================================  */                               
+body
+{
+    background-image:url(img/typef.jpg);
+    color: darkred;
+}
 
 
+ #deventure 
+{
+ width: 280px;
+ height: 300px;
+}
 
 
+ul 
+{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+ul li a 
+
+{  
+    display:inline-block;
+    text-decoration: none;
+    list-style: none;
+    color: orangered;
+    flex-direction: column;
+    border: 3px solid darkred;
+    margin-top: 1em;
+    
+}
 
 
+h1,h2
+{
+    font-family: 'Nova Oval', cursive;
 
+}
 
-
-
-
-
+h2
+{
+    font-size: 5px
+}
 
 
 

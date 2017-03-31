@@ -101,15 +101,21 @@ textarea {
  ==============================================================================================  */                               
 body
 {
-    background-image:url(img/typef.jpg);
+    background-image:url"img/typef.jpg";
     color: darkred;
 }
 
+#logo
+{
+    width: 250px;
+    height: 100px;
+}
 
  #deventure 
 {
- width: 280px;
+ width: 250px;
  height: 300px;
+ margin-right: 5px;
 }
 
 
@@ -117,6 +123,11 @@ ul
 {
     display: flex;
     justify-content: space-between;
+    list-style: none;
+    flex-direction: column;
+    position:relative;
+
+
 
 }
 
@@ -134,16 +145,76 @@ ul li a
 }
 
 
-h1,h2
+h1,h2,
 {
     font-family: 'Nova Oval', cursive;
+    text-align: center;
+    margin-left: 2em;
 
 }
 
 h2
 {
-    font-size: 5px
+    font-size: 15px;
 }
+section p 
+{
+    border: solid 3px black;    
+}
+
+
+
+/*        ===============================================================================================================
+                        Start of rules to tabléte 
+         ================================================================================================================ */
+    @media (min-width: 768px)
+    {
+        #logo
+        {
+            width: 100%;
+            height: 200px;
+            display: flex;
+            align-content: center;
+        }
+    
+          h1,h2 
+         {
+        text-align: center;
+         }
+         #deventure 
+         {
+             width: 100%;
+             height: 300px;
+         }
+    
+         section p 
+         {
+             border: solid 2px black;
+             margin: 1em 0 0 2em;
+             text-align: center;
+         }
+    
+    
+    
+    }
+
+  /* ================================================================================================================
+                            End Of rules table 
+     ================================================================================================================*/
+
+    @media (min-width: 1024px)   
+
+    {
+        
+        {
+
+        }
+
+
+
+
+
+    }                                    
 
 
 

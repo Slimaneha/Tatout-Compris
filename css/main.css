@@ -184,6 +184,7 @@ footer nav
     border-top: solid black 4px;
     border-bottom: solid black 4px;
     padding-bottom: 1em;
+    vertical-align: middle;
 
 }
 
@@ -247,8 +248,9 @@ footer nav
          {
              
              border: none;
-             margin-right: 1em;
+             margin-right: 2em;
              font-size: 20px;
+             justify-content: space-between;
          }
 
 

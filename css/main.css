@@ -147,7 +147,7 @@ ul li a
 }
 
 
-h1,h2,
+h1,h2,h3
 {
     font-family: 'Nova Oval', cursive;
     text-align: center;
@@ -204,6 +204,12 @@ section form
     border: 2px solid black; 
 }
 
+    #pc,#table
+    {
+        display: none;
+    }
+
+
 /*        ===============================================================================================================
                         Start of rules to tabléte 
          ================================================================================================================ */
@@ -251,6 +257,16 @@ section form
             border-right:2px solid;
             padding-right:5px;
             
+        }
+
+        #mobile
+        {
+            display: none;
+        }
+
+        #table 
+        {
+            display: block;
         }
 
 
@@ -316,7 +332,14 @@ section form
         font-size: 15px;
         padding-bottom:1em;
     }
-    
+     #mobile,#table
+     {
+         display:none;
+     }
+     #pc
+     {
+         display:block;
+     }
     }                                    
 
 

@@ -140,8 +140,9 @@ ul li a
     list-style: none;
     color: orangered;
     flex-direction: column;
-    border: 3px solid darkred;
+    border: 1px solid black;
     margin-top: 1em;
+    border-radius: 10px;
     
 }
 
@@ -181,11 +182,26 @@ article p
 
 footer nav 
 {
-    border-top: solid black 4px;
-    border-bottom: solid black 4px;
+   /* border-top: solid black 4px;
+    border-bottom: solid black 4px; */
     padding-bottom: 1em;
     vertical-align: middle;
+    padding-bottom:3em;
 
+}
+
+#contact
+{
+    border: none;
+    font-size: 11px;
+}
+
+
+section form
+{
+    display: flex;
+    flex-direction:column;
+    border: 2px solid black; 
 }
 
 /*        ===============================================================================================================
@@ -223,9 +239,24 @@ footer nav
          { height: 80%;
 
          }
-    
-    
+         section form label
+         {
+             margin-top:1em;
+         }
+        
+        nav ul  li a
+        {   border:none;
+            border-radius: 0px;
+            justify-content: space-between;
+            border-right:2px solid;
+            padding-right:5px;
+            
+        }
+
+
     }
+
+    
 
 
 

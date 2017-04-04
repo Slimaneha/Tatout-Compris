@@ -121,7 +121,7 @@ body {
     background-repeat: no-repeat;
     background-blend-mode: hard-light;
     background-clip: padding-box;
-    background-size: 100%;
+    background-size: cover;
     text-align: center;
 }
 

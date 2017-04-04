@@ -99,6 +99,12 @@ textarea {
 /* ============================================================================================
                               Start    Mobile Frust and rules basse css 
  ==============================================================================================  */                               
+  * 
+  {
+      margin: 0;
+  }
+  
+  
   body 
   {
       background-color: #071108;
@@ -109,16 +115,17 @@ textarea {
         background-blend-mode: hard-light;
         background-clip:padding-box;
         background-size: 100%;
+        text-align: center;
   }
   
   
    
-    #deventure 
-    {
-        /*display: none */
-    }
+  
    
-
+    #logo
+    {
+        display: none;
+    }
 
    nav 
    {
@@ -131,6 +138,7 @@ textarea {
         list-style: none;
          color: #f6fcf7;
         justify-content: space-between;
+        padding-bottom: 3em;
 
 
 
@@ -148,12 +156,11 @@ textarea {
 
     a:hover 
     {
-         width: 100%;
         color: darkred;
-        border: dashed 2px white;
         text-decoration-line: none;
         text-decoration: bold;
         margin-left: -2em;
+        
 
        
         
@@ -164,6 +171,7 @@ textarea {
     {
         display: flex;
         flex-direction: column;
+        margin-top: 5em;
     }
 
     #one figure image 
@@ -175,21 +183,43 @@ textarea {
     #formulaire 
     {
         display: flex;
+        width: 100%;
+        align-content: space-between;
+        flex-direction: column;
+        margin-top: 5em;
+        align-content: space-between;
+
+
+        
+        
     
 
+    }
+    form
+    {
+        border: none;
+    }
+    #info
+    {
+        display: flex;
+        margin-top: 9em;
     }
 
     form
     {
         flex-direction: column;
         width: 50%;
+        align-items: flex-start;
+        
 
         
     }
     input,select,button
     {
+        display: flex;
         color: darkred;
-        flex-direction: column;
+        align-items: flex-start;
+        align-content: space-between;
         
     }
     strong
@@ -202,6 +232,15 @@ textarea {
         display: none;
     }
 
+    footer,section
+    {
+        margin-top: 7em;
+    }
+    #mesages 
+    {
+        background-color: black;
+    }
+
 
 /* 
 =======================================================================================================================
@@ -211,19 +250,32 @@ textarea {
 @media (min-width:720px)   
 
 {
+    header
+    {
+        background-color: black;
+        text-align: center;
+    }
 
     nav
     {
         display: flex;
         font-size: 15px;
+        justify-content: space-between;
+        align-items: flex-end;
     }
             
-            
+    li
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end
+    }        
     nav ul li a 
     {
         padding-left: 5px;
-        background-color: black;
         display: inline-block;
+        padding-left: 3em;
+        font-size: 15px;
     }
     #mobile
     {
@@ -235,8 +287,17 @@ textarea {
         display:block;
     }
 
-
-
+    #deventure, #deventure figure , #deventure img
+    {
+        width: 100%;
+        height: 500px ;
+        
+    }
+    
+    h3
+    {
+        color: darkred;
+    }
 
 
 
@@ -286,11 +347,43 @@ textarea {
    @media (min-width:1024px) 
    {
 
+       nav ul li 
+       {
+           font-size: 35px;
+           align-items: flex-end;
+
+       }
 
 
+       label
+       {
+          display: flex;
+          align-items: flex-start;
+
+           color: darkred;
+       }
+
+        #formulaire 
+        {
+            width: 500px;
+            display: flex;
+            align-content: center;
+        }
 
 
+        form
+        {
+            align-content: center;
+            margin-left: 5em;
+            border: dashed 2px darkred;
 
+        }
+
+        nav ul li a 
+        {
+            font-size: 30px;
+            align-items: center;
+        }
 
 
 
